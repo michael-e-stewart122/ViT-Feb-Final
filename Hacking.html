@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- Include JQuery for Semantic UI -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+          integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <!-- Include Semantic UI CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+        <!-- Include Semantic UI JS -->
+        <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+        <!-- User JS & CSS -->
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js"></script>
+        <title>Semantic Starter</title>
+      </head>
+ 
+<body>
+<h1 align="center">Hacking Tutorials and Links</h1>
+<p align="center">To be used for entertainment or ethical hacking only</p>
+
+    <div class="ui pointing menu">
+        <!-- line 23 sets the div class as a user interface pointing menu which means that the anchor tags below will be links -->
+        <a href="http://127.0.0.1:5500" class="item">
+          <i class="home icon"></i>
+        </a>
+        <!-- lines 25-27 define the anchor url, class, and text to display -->
+        <a href="./Cloud.html" class="item">
+          <i class="cloud icon"></i>
+        </a>
+        <!-- lines 29-31, 33-35, and 36-38 define where to go when the icon or named button is clicked  
+          You want to avoid spaces here as spaces make ugly urls the easiest way to create the pages is in command line/terminal using touch
+        line 25 shows the base site, line 29 shows the only text needed for the additional pages (don't forget to finish with .html) -->
+        <a href="./CSS.html" class="item">
+          <i class="css3 alternate icon"></i>
+        </a>
+        <a href="./HTML.html" class="item">
+          <i class="html5 icon"></i>
+        </a>
+        <a href="./JavaScript.html" target="_blank" class="item">
+          <i class="js icon"></i>
+        </a>
+        <a href="./Hacking.html" target="_blank" class="active item">
+          <i class="user secret icon"></i>
+        </a>
+        <a href="./Spouse.html" target="_blank" class="item">
+            <i class="smile outline icon"></i>
+        </a>
+        <a href="https://github.com/michael-e-stewart122" target="_blank" class="item">
+          <i class="github icon"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/michael-e-stewart122/" target="_blank" class="item">
+          <i class="linkedin icon"></i>
+        </a>
+        <a href="mailto:michael.e.stewart122@gmail.com" target="_blank" class="item">
+          <i class="mail icon"></i>
+        </a>
+        <div class="right menu">
+          <div class="item">
+            <!-- <div class="ui transparent icon input">
+              <input type="text" placeholder="Search...">
+              <i class="search link icon"></i>              
+            </div> -->
+          </div>
+        </div>        
+      </div>
+      <div class="row">
+        <div class="column">
+          <div class="content">
+            <a href="https://www.hacker101.com/" target="_blank">
+            <img src="./assets/images/Hacker101.PNG" alt="Hacker101" style="width:100%">
+            <h3>Hacker 101</h3>
+            <p>This is a great site with multiple ways to learn.</p>
+            </a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <a href="https://www.hackerone.com/" target="_blank">
+            <img src="/assets/images/hackerone.PNG" alt="Lights" style="width:100%">
+            <h3>Hackerone</h3>
+            <p>Great people doing great things for security</p>
+            </a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <a href="https://www.tutorialspoint.com/ethical_hacking/index.htm" target="_blank"> 
+            <img src="/assets/images/Tutorialspoint.PNG" alt="Ethical Hacking Tutorial" style="width:100%">
+            <h3>Ethical Hacking Tutorial</h3>
+            <p>Good historical references and seperated by chapters for easy selection</p>
+            </a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <a href="https://www.bugcrowd.com/hackers/" target="_blank">
+                <img src="/assets/images/bugcrowd.PNG" alt="Bugcrowd" style="width:100%">
+            <h3>Bugcrowd University</h3>
+            <p>Plenty of ways to learn hacking for the good of all.</p>
+            </a>
+          </div>
+        </div>
+      </div> 
+    
+</body>
+</html>
