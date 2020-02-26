@@ -115,7 +115,7 @@ font: red;
     padding: 8px;
   }
   
-  /* Create four equal columns that floats next to each other */
+  /* Create four equal columns that float next to each other */
   .column {
     float: left;
     width: 25%;
@@ -146,4 +146,29 @@ font: red;
     .column {
       width: 100%;
     }
+  }
+  body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* The image used */
+    background-image: url("assets/images/ethical\ hacking.jfif");
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
   }
