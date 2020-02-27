@@ -1,58 +1,54 @@
 .wide {
     /* border: 1px solid salmon; */
-
 }
 
 /* #changeMe { */
-    /* transition: all 2s ease-in-out
+
+/* transition: all 2s ease-in-out
 
 } */
 
-span{
+span {
     display: inline-flex;
 }
 
 /* .image2 { */
-    /* height;
+
+/* height;
     width;
     } */
 
-   .image2 {
-        -ms-transform: rotate(90deg); /* IE 9 */
-        -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-        transform: rotate(90deg);
-        } 
-h1{
-
-    
+.image2 {
+    -ms-transform: rotate(90deg);
+    /* IE 9 */
+    -webkit-transform: rotate(90deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
 }
 
+h1 {}
 
-h3{
-font-size: 2rem;
-font: red;
-
+h3 {
+    font-size: 2rem;
+    font: red;
 }
-
 
 .homepage-hero-module {
     border-right: none;
     border-left: none;
     position: relative;
-  }
+}
 
-  .no-video .video-container video,
-  .touch .video-container video {
+.no-video .video-container video, .touch .video-container video {
     display: none;
-  }
+}
 
-  .no-video .video-container .poster,
-  .touch .video-container .poster {
+.no-video .video-container .poster, .touch .video-container .poster {
     display: block !important;
-  }
+}
 
-  .video-container {
-      margin-top: 0em;
+.video-container {
+    margin-top: 0em;
     position: relative;
     bottom: 0%;
     left: 0%;
@@ -60,122 +56,129 @@ font: red;
     width: 100%;
     overflow: hidden;
     background: #000;
-  }
+}
 
-  .video-container .poster img {
+.video-container .poster img {
     width: 100%;
     bottom: 0;
     position: absolute;
-  }
+}
 
-  .video-container .filter {
+.video-container .filter {
     z-index: 100;
     position: absolute;
     background: rgba(0, 0, 0, 0.4);
     width: 100%;
-  }
+}
 
-  .video-container video {
+.video-container video {
     position: absolute;
     z-index: 0;
     bottom: 0;
-  }
+}
 
-  .video-container video.fillWidth {
+.video-container video.fillWidth {
     width: 100%;
-  }
-  * {
+}
+
+* {
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
     background-color: #f1f1f1;
     padding: 20px;
     font-family: Arial;
-  }
-  
-  /* Center website */
-  .main {
+}
+
+/* Center website */
+
+.main {
     max-width: 1000px;
     margin: auto;
-  }
-  
-  h1 {
+}
+
+h1 {
     font-size: 50px;
     word-break: break-all;
-  }
-  
-  .row {
+}
+
+.row {
     margin: 8px -16px;
-  }
-  
-  /* Add padding BETWEEN each column (if you want) */
-  .row,
-  .row > .column {
+}
+
+/* Add padding BETWEEN each column (if you want) */
+
+.row, .row>.column {
     padding: 8px;
-  }
-  
-  /* Create four equal columns that float next to each other */
-  .column {
+}
+
+/* Create four equal columns that float next to each other */
+
+.column {
     float: left;
     width: 25%;
-  }
-  
-  /* Clear floats after rows */
-  .row:after {
+}
+
+/* Clear floats after rows */
+
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
-  
-  /* Content */
-  .content {
+}
+
+/* Content */
+
+.content {
     background-color: white;
     padding: 10px;
-   }
-     
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 900px) {
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+
+@media screen and (max-width: 900px) {
     .column {
-      width: 50%;
+        width: 50%;
     }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
     .column {
-      width: 100%;
+        width: 100%;
     }
-  }
-  body, html {
+}
+
+body, html {
     height: 100%;
-  }
-  
-  * {
+}
+
+* {
     box-sizing: border-box;
-  }
-  
-  .bg-image {
+}
+
+.bg-image {
     /* The image used */
     background-image: url("assets/images/ethical\ hacking.jfif");
-  
     /* Add the blur effect */
     filter: blur(8px);
     -webkit-filter: blur(8px);
-  
     /* Full height */
     height: 100%;
-  
     /* Center and scale the image nicely */
     /* background-position: relative; */
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
-  } 
+}
 
-  .over-images {
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+.over-images {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
     color: white;
     font-weight: bold;
     /* border: 3px solid #f1f1f1; */
@@ -187,9 +190,8 @@ font: red;
     width: 80%;
     padding: 20px;
     text-align: center;
-  }
+}
 
-  a {
-      color: black;
-  }
-
+a {
+    color: black;
+}
