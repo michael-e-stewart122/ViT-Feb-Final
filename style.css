@@ -195,3 +195,63 @@ body, html {
 a {
     color: black;
 }
+
+.bg-image2 {
+    /* The image used */
+    background-image: url("/assets/images/clouds.jfif");
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    /* background-position: relative; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.bg-image3 {
+    /* The image used */
+    background-image: url("/assets/images/clouds.jfif");
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    /* background-position: relative; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.bg-image4 {
+    /* The image used */
+    background-image: url("/assets/images/clouds.jfif");
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    /* background-position: relative; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.bg-image5 {
+    /* The image used */
+    background-image: url("/assets/images/spouse.png");
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    /* background-position: relative; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
