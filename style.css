@@ -1,32 +1,6 @@
-.wide {
-    /* border: 1px solid salmon; */
-}
-
-/* #changeMe { */
-
-/* transition: all 2s ease-in-out
-
-} */
-
 span {
     display: inline-flex;
 }
-
-/* .image2 { */
-
-/* height;
-    width;
-    } */
-
-.image2 {
-    -ms-transform: rotate(90deg);
-    /* IE 9 */
-    -webkit-transform: rotate(90deg);
-    /* Chrome, Safari, Opera */
-    transform: rotate(90deg);
-}
-
-h1 {}
 
 h3 {
     font-size: 2rem;
@@ -244,6 +218,21 @@ a {
 .bg-image5 {
     /* The image used */
     background-image: url("/assets/images/spouse.png");
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    /* background-position: relative; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.bg-image6 {
+    /* The image used */
+    background-image: url("/assets/images/HTML5.jfif");
     /* Add the blur effect */
     filter: blur(8px);
     -webkit-filter: blur(8px);
