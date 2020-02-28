@@ -213,7 +213,7 @@ a {
 
 .bg-image3 {
     /* The image used */
-    background-image: url("/assets/images/clouds.jfif");
+    background-image: url("/assets/images/js.jfif");
     /* Add the blur effect */
     filter: blur(8px);
     -webkit-filter: blur(8px);
@@ -228,7 +228,7 @@ a {
 
 .bg-image4 {
     /* The image used */
-    background-image: url("/assets/images/clouds.jfif");
+    background-image: url("/assets/images/css.jfif");
     /* Add the blur effect */
     filter: blur(8px);
     -webkit-filter: blur(8px);
